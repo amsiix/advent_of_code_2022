@@ -1,4 +1,4 @@
-cat aoc_data_04.txt | 
+cat ../data/aoc_data_04.txt | 
 	awk -F, '{print $1, $2}' | 
 	awk '
 {
